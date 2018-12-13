@@ -1,0 +1,27 @@
+BorderPane{
+    -fx-background-color: #232323;
+}
+
+GridPane{
+    -fx-background-color: #323232;
+}
+
+Label{
+    -fx-text-fill: #FCFCFC;
+}
+
+Button{
+    -fx-background-color: #323232;
+    -fx-text-fill: #FCFCFC;
+    -fx-pref-width: 100px;
+}
+
+.slider .track {
+    -fx-pref-height:2;
+    -fx-background-color: #FCFCFC;
+}
+
+.slider .thumb {
+    -fx-padding: 5;
+    -fx-background-color: #FCFCFC;
+}

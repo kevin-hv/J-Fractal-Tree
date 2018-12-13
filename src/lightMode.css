@@ -1,0 +1,22 @@
+BorderPane{
+    -fx-background-color: #ffffff;
+}
+
+GridPane{
+    -fx-background-color: #f5f5f5;
+}
+
+.slider .track {
+    -fx-pref-height:2;
+    -fx-background-color: #6b6b6b;
+}
+
+.slider .thumb {
+    -fx-padding: 5;
+    -fx-background-color: #6b6b6b;
+}
+
+Button{
+    -fx-pref-width: 100px;
+    -fx-background-color: #f5f5f5;
+}
