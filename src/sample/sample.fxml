@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
-<BorderPane fx:id="rootPane" fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
+<BorderPane fx:id="rootPane" fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml" stylesheets="">
     <center>
         <Pane fx:id="canvasWrap">
             <Canvas fx:id="mainCanvas"/>
@@ -19,14 +19,15 @@
 
         <GridPane alignment="CENTER" vgap="5" hgap="10">
             <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
-            <Slider fx:id="sliderThickness" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="1" min="1" max="15" value="5"/>
-            <Slider fx:id="sliderLength" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.columnSpan="1"  min="1" max="100" value="50"/>
-            <Slider fx:id="sliderAngle" GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.columnSpan="1"  min="0" max="40" value="15"/>
-            <Button onAction="#grow" GridPane.columnIndex="3" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="2" text="%buttonGrow"/>
-            <Button onAction="#newTree" GridPane.columnIndex="4" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="2" text="%buttonNewTree"/>
-            <Label fx:id="labelThickness" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="1" text="%labelThickness"/>
-            <Label fx:id="labelLength" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="1" text="%labelLength"/>
-            <Label fx:id="labelAngle" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.columnSpan="1" text="%labelAngle"/>
+            <Button fx:id="buttonSwapTheme" onAction="#swapTheme" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="2" text="%buttonTheme2"/>
+            <Slider fx:id="sliderThickness" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.columnSpan="1" min="1" max="15" value="5"/>
+            <Slider fx:id="sliderLength" GridPane.columnIndex="2" GridPane.rowIndex="0" GridPane.columnSpan="1"  min="1" max="100" value="50"/>
+            <Slider fx:id="sliderAngle" GridPane.columnIndex="3" GridPane.rowIndex="0" GridPane.columnSpan="1"  min="0" max="40" value="15"/>
+            <Button onAction="#grow" GridPane.columnIndex="4" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="2" text="%buttonGrow"/>
+            <Button onAction="#newTree" GridPane.columnIndex="5" GridPane.rowIndex="0" GridPane.columnSpan="1" GridPane.rowSpan="2" text="%buttonNewTree"/>
+            <Label fx:id="labelThickness" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="1" text="%labelThickness"/>
+            <Label fx:id="labelLength" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.columnSpan="1" text="%labelLength"/>
+            <Label fx:id="labelAngle" GridPane.columnIndex="3" GridPane.rowIndex="1" GridPane.columnSpan="1" text="%labelAngle"/>
         </GridPane>
     </bottom>
 </BorderPane>
