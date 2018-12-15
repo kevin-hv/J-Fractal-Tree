@@ -3,5 +3,7 @@ A simple fractal tree drawing application built in Java which creates fractal tr
 It is possible in he application to control the length, thickness, and angle of branches.
 The applications has a light and a dark theme as well.
 It currently supports 3 languages: English, Hungarian, Slovak
-![Purplish Fractal Tree on White Background](https://imgur.com/YIg5kmk)
-![Reddish Fractal Tree on Dark Background](https://imgur.com/LPGDeRi)
+
+![Purplish Fractal Tree on White Background](https://i.imgur.com/YIg5kmk.jpg)
+
+![Reddish Fractal Tree on Dark Background](https://i.imgur.com/LPGDeRi.jpg)
