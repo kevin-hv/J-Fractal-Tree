@@ -4,4 +4,4 @@ It is possible in he application to control the length, thickness, and angle of 
 The applications has a light and a dark theme as well.
 It currently supports 3 languages: English, Hungarian, Slovak
 
-![Purplish Fractal Tree on White Background](https://i.imgur.com/YIg5kmk.jpg | width=89)
+![Purplish Fractal Tree on White Background](https://i.imgur.com/YIg5kmk.jpg)
